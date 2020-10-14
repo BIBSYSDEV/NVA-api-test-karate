@@ -1,7 +1,7 @@
 Feature: Testing search
 
-	Background:
-	  Given url 'https://api.dev.nva.aws.unit.no'
+  Background:
+    Given url 'https://api.dev.nva.aws.unit.no'
 
   Scenario: Search for 'ibsen'
     Given path 'search/resources' 
