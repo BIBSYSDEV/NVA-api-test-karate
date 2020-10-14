@@ -4,7 +4,7 @@ Feature: Testing search
 	  Given url 'https://api.dev.nva.aws.unit.no'
 
   Scenario: Search for 'ibsen'
-    Given path 'search/resources'
+    Given path 'search/resources' 
     And param query = 'ibsen'
     # And request = { query: 'ibsen' }
     # And request = read('query.json')
