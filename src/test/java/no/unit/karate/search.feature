@@ -15,3 +15,10 @@ Feature: Testing search
     And match response[0].date == '#present'
     And match response[0].id == '#uuid'
 
+  Scenario: Search for 'something'
+    Given path 'search/resources' 
+    And param query = 'something'
+    When method get
+    Then status 200
+    And match response == '#array'
+		And match response.size() == 0

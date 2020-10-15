@@ -18,8 +18,8 @@ repositories {
 }
 
 dependencies {
-    testCompile 'com.intuit.karate:karate-junit5:0.9.6'
-    testCompile 'com.intuit.karate:karate-apache:0.9.6'
+    testImplementation 'com.intuit.karate:karate-junit5:0.9.6'
+    testImplementation 'com.intuit.karate:karate-apache:0.9.6'
     
 }
 
